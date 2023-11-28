@@ -36,3 +36,8 @@ const myfunction = function (){
 }
 
 console.log(typeof(myfunction))
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), Heap (Non-Primitive)
