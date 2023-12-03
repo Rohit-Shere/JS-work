@@ -43,7 +43,7 @@ const user = {
 }
 
 function handleObject(anyObject ){
-    console.log(`Username is ${anyObject.username} and price is ${anyObject.Price} `);
+    // console.log(`Username is ${anyObject.username} and price is ${anyObject.Price} `);
 }
 
 handleObject(user)
@@ -57,3 +57,23 @@ function returnSecondValue(getArray){
 // console.log(returnSecondValue(myNewArray));
 // console.log(returnSecondValue([200,400,100,500]));
 
+function one(){
+    const username= "Dipak"
+
+    function two(){
+        const website= "youtube"
+        console.log(username);
+    }
+    // console.log(website);
+    // two()
+}
+one()
+
+function addone (num){
+    return num+1
+}
+addone(6)
+
+const addTwo = function(num){
+    return num+2
+}
