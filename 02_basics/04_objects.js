@@ -32,7 +32,7 @@ const obj2={
 // const obj3 = Object.assign({}, obj1, obj2)
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [{
@@ -43,5 +43,21 @@ const users = [{
 
 // console.log(users[1].email)
 
-console.log(tinderUser.hasOwnProperty('name'))
+// console.log(tinderUser.hasOwnProperty('name'))
 
+
+const course= {
+    coursename : "js in hindi ",
+    price:'999',
+    cousreInstructor: 'Pratul '
+}
+
+const {cousreInstructor:instructor}= course
+console.log(instructor)
+
+// this is JSON 
+// {
+//     "name": " rohit",
+//     "id":124,
+//     "age":"13"
+// }
