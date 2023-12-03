@@ -27,5 +27,21 @@ const obj2={
     4:'d', 5:'e'
 }
 
-const obj3= {obj1, obj2}
+// const obj3= {obj1, obj2}
+
+// const obj3 = Object.assign({}, obj1, obj2)
+
+const obj3 = {...obj1, ...obj2}
 console.log(obj3);
+
+
+const users = [{
+    id:1,
+    email:"ro@gamil.com"
+}
+]
+
+// console.log(users[1].email)
+
+console.log(tinderUser.hasOwnProperty('name'))
+
